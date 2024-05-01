@@ -1,4 +1,4 @@
-package concesionario.modelo_dto;
+package modelo_dto;
 import java.util.Date;
 
 public class venta {

@@ -1,4 +1,4 @@
-package concesionario.modelo_dto;
+package modelo_dto;
 
 public class cliente {
     private int id;
