@@ -1,6 +1,6 @@
 package ui;
 // objeto de tipo Factura con datos de ejemplo
-Factura facturaEjemplo = new Factura(123456, "2024-05-08", "Juan Perez", "Cliente Ejemplo",
+Factura facturaEjemplo = new Factura(123456, "2024-05-08", "Juan Manrique", "Cliente Ejemplo",
                                      "Toyota Corolla", "Gasolina", 1, 20000.0, 2000.0,
                                      "Tarjeta de crédito", 18000.0, 2000.0, 20000.0);
 
