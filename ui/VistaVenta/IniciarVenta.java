@@ -14,6 +14,7 @@ public class IniciarVenta extends javax.swing.JFrame {
      * Creates new form ModeloVenta
      */
     public IniciarVenta() {
+        this.setResizable(false);
         initComponents();
     }
 

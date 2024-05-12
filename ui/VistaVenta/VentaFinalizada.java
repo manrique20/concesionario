@@ -14,6 +14,7 @@ public class VentaFinalizada extends javax.swing.JFrame {
      * Creates new form ResumenVenta
      */
     public VentaFinalizada() {
+        this.setResizable(false);
         initComponents();
     }
 

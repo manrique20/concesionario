@@ -14,6 +14,7 @@ public class InformaciónDePago extends javax.swing.JFrame {
      * Creates new form InformaciónDePago
      */
     public InformaciónDePago() {
+        this.setResizable(false);
         initComponents();
     }
 

@@ -14,6 +14,7 @@ public class SeleccionModelos extends javax.swing.JFrame {
      * Creates new form SeleccionModelos
      */
     public SeleccionModelos() {
+        this.setResizable(false);
         initComponents();
     }
 

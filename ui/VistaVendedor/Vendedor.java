@@ -14,6 +14,7 @@ public class Vendedor extends javax.swing.JFrame {
      * Creates new form Vendedor
      */
     public Vendedor() {
+        this.setResizable(false);
         initComponents();
     }
 

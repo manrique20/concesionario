@@ -14,6 +14,7 @@ public class SignupCliente extends javax.swing.JFrame {
      * Creates new form cliente
      */
     public SignupCliente() {
+        this.setResizable(false);
         initComponents();
     }
 

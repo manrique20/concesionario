@@ -14,6 +14,7 @@ public class VentaExitosa extends javax.swing.JFrame {
      * Creates new form VentaExitosa
      */
     public VentaExitosa() {
+        this.setResizable(false);
         initComponents();
     }
 

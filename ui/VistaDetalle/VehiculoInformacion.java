@@ -14,6 +14,7 @@ public class VehiculoInformacion extends javax.swing.JFrame {
      * Creates new form VehiculoInformacion
      */
     public VehiculoInformacion() {
+        this.setResizable(false);
         initComponents();
     }
 

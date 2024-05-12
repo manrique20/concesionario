@@ -14,6 +14,7 @@ public class NumeroFactura extends javax.swing.JFrame {
      * Creates new form NumeroFactura
      */
     public NumeroFactura() {
+        this.setResizable(false);
         initComponents();
     }
 

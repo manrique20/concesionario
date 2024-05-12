@@ -14,6 +14,7 @@ public class FacturaVenta extends javax.swing.JFrame {
      * Creates new form FacturaVenta
      */
     public FacturaVenta() {
+        this.setResizable(false);
         initComponents();
     }
 
