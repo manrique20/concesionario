@@ -27,23 +27,23 @@ public class Inicial extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        Cliente = new javax.swing.JButton();
+        Vendedor = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setText("Cliente");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        Cliente.setText("Cliente");
+        Cliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                ClienteActionPerformed(evt);
             }
         });
 
-        jButton2.setText("Vendedor");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        Vendedor.setText("Vendedor");
+        Vendedor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                VendedorActionPerformed(evt);
             }
         });
 
@@ -56,8 +56,8 @@ public class Inicial extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(58, 58, 58)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton2)
-                    .addComponent(jButton1))
+                    .addComponent(Vendedor)
+                    .addComponent(Cliente))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jLabel1)
@@ -68,9 +68,9 @@ public class Inicial extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(Cliente)
                 .addGap(5, 5, 5)
-                .addComponent(jButton2)
+                .addComponent(Vendedor)
                 .addContainerGap())
         );
 
@@ -78,13 +78,13 @@ public class Inicial extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void VendedorActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
     }                                        
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void ClienteActionPerformed(java.awt.event.ActionEvent evt) {                                        
         // TODO add your handling code here:
-    }                                        
+    }                                       
 
     
     /**

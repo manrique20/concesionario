@@ -12,8 +12,8 @@ public class ControladorPrincipal implements ActionListener{
     public ControladorPrincipal(Inicial vistaPrincipal)
     {
         this.vistaPrincipal = vistaPrincipal;
-        this.vistaPrincipal.jButton1.addActionListener(this);
-        this.vistaPrincipal.jButton2.addActionListener(this);
+        this.vistaPrincipal.Cliente.addActionListener(this);
+        this.vistaPrincipal.Vendedor.addActionListener(this);
     } 
     
     
