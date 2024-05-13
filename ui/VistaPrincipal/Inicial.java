@@ -124,8 +124,8 @@ public class Inicial extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify                     
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    public javax.swing.JButton Cliente;
+    public javax.swing.JButton Vendedor;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration                   
 }
