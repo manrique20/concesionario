@@ -14,6 +14,7 @@ public class LoginCliente extends javax.swing.JFrame {
      * Creates new form IngresarCliente
      */
     public LoginCliente() {
+        this.setVisible(true);
         this.setResizable(false);
         initComponents();
     }

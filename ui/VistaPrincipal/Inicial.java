@@ -14,6 +14,7 @@ public class Inicial extends javax.swing.JFrame {
      * Creates new form Inicial
      */
     public Inicial() {
+        this.setVisible(true);
         this.setResizable(false);
         initComponents();
     }
